@@ -1,0 +1,220 @@
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    p {
+        margin: 0;
+    }
+    
+    .container {
+        margin: 0 auto;
+        padding: 60px;
+        max-width: 1024px;
+    }
+    
+    .header {
+        background-color: #cbecff;
+    }
+    
+    .lang_buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 19px;
+    }
+    
+    .lang_btn {
+        padding: 2px 4px;
+        width: 26px;
+        height: 26px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+        text-align: center;
+        color: #0962e8;
+        border: none;
+        border-radius: 12px;
+        background-color: transparent;
+    }
+
+    .lang_btn--active {
+        background-color: #ffffff;
+    }
+
+    .header_content {
+        position: relative;
+        display: flex;
+    }
+
+    .left_content {
+        width: 384px;
+    }
+
+    .title {
+        margin-top: 69px;
+        margin-bottom: 14px;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 83.2px;
+        color: #29374e;
+    }
+
+    .title_accent {
+        width: 122px;
+        height: 80px;
+        padding: 0 17px;
+        border-radius: 20px;
+        letter-spacing: 0.384px;
+        background-color: #ffffff;
+        color: #0962e8;
+    }
+
+    .header_text {
+        margin-bottom: 38px;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28.6px;
+        color: #29374e;
+    }
+
+    .demo_btn {
+        margin-bottom: 280px;
+        padding: 14px 19px 15px 20px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 25.2px;
+        border: none;
+        border-radius: 8px;
+        background: #0962e8;
+        color: #ffffff;
+    }
+
+    .right_content {
+        position: absolute;
+        top: -58px;
+        left: 400px;
+        width: 740px;
+    }
+
+    .header_benefits {
+        position: absolute;
+        top: 645px;
+        display: flex;
+        gap: 20px;
+    }
+
+    .header_benefit {
+        display: flex;
+        justify-content: space-between;
+        padding: 22px 20px 30px 20px;
+        width: 241px; 
+        background-color: #fff;
+        border-radius: 20px;
+        box-shadow: 6px 4px 12px 0px rgba(0, 0, 0, 0.05);
+
+
+    }
+
+    .header_benefit_text {
+        color: #29374E;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 22.4px;
+
+    }
+
+    .benefit_image {
+        width: 39px;
+        height: 39px;
+        background-color: #EFF9FF;
+        border-radius: 50%;
+
+    }
+
+    .benefit_image svg {
+        width: 24px;
+        height: 24px;;
+    }
+
+    .products {
+    }
+
+    .section_title {
+        /* width: 753px; */
+        margin-bottom: 44px;
+        color: #29374E;
+        text-align: center;
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 49.4px;
+        letter-spacing: -1.14px;
+
+    }
+
+    .section_title--accent {
+        color: #0962E8;
+        font-size: 38px;
+    }
+
+    .products_content {
+        display: flex;
+        gap: 20px;
+    }
+
+    .products_content_left {
+        background-color: #E9F6FF;
+        border-radius: 30px;
+        width: 502px;
+        height: 328px;
+        display: flex;
+        padding: 37px 33px 0 20px;
+    }
+
+    .products_content_info_left {
+    }
+
+    .section_subtitle {
+        margin-bottom: 12px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .section_text {
+        color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.6px;
+    }
+
+    .products_content_info_right {
+
+    }
+
+    .products_contetn_right {
+        background-color: #E9F6FF;
+        border-radius: 30px;
+        width: 502px;
+        height: 328px;
+        display: flex;
+        padding: 37px 33px 0 20px;
+    }
+
+
+    .section_title {
+    }
+    .section_title--accent {
+    }
+    .header_benefit_text {
+    }
+    .benefit_image {
+    }
+    .demo_btn {
+    }
